@@ -1,0 +1,20 @@
+set mat_prim := N P K Mg;
+set prodotti := A B;
+
+param costo:=
+A 25
+B 28
+;
+
+param disp:=
+N 312
+P 360
+K 160
+Mg 70
+;
+
+param composizione:
+	N		P		K		Mg :=
+A	0.4		0.4		0.1		0.1
+B	0.24	0.45	0.31	0
+;

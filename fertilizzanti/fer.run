@@ -1,0 +1,8 @@
+reset;
+
+model /home/simone/Documents/univpm/ampl/fertilizzanti/fer.mod;
+
+data /home/simone/Documents/univpm/ampl/fertilizzanti/fer.dat;
+
+solve;
+

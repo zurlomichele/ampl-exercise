@@ -1,0 +1,11 @@
+reset;
+
+model /home/simone/Documents/univpm/ampl/diet/diet.mod;
+
+data /home/simone/Documents/univpm/ampl/diet/diet.dat;
+
+solve;
+
+display costo_totale;
+display x;
+

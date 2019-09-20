@@ -1,0 +1,23 @@
+
+set NUTRIMENTI := calorie proteine calcio;
+set ALIMENTI := pane latte uova carne dolce;
+
+param costo :=
+pane 2
+latte 3
+uova 4
+carne 19
+dolce 20
+;
+
+param fabbisogno :=
+calorie 2000
+proteine 50
+calcio 700
+;
+
+param apporto:
+			pane	latte	uova	carne	dolce :=
+calorie		110		160		180		260		420
+proteine 	4		8		13		14		4
+calcio		2		285		54		80		22;

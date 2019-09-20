@@ -1,0 +1,4 @@
+reset;
+
+model /home/simone/Documents/univpm/ampl/esercitazione/es.mod;
+data /home/simone/Documents/univpm/ampl/esercitazione/es.dat;
